@@ -608,3 +608,114 @@ section h2 {
     text-align: center;
 
 }
+@media (max-width: 768px) {
+
+    /* HERO */
+
+    .hero {
+        padding-top: 140px;
+        padding-bottom: 70px;
+    }
+
+    .hero h1 {
+        font-size: 2.3rem;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        line-height: 1.8;
+        margin-bottom: 30px;
+    }
+
+    .hero-image {
+        margin-top: 40px;
+        max-width: 85%;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .btn-principal,
+    .btn-outline-custom {
+        width: 100%;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    /* SERVIÇOS */
+
+    .card-servico {
+        padding: 35px 28px;
+        border-radius: 24px;
+    }
+
+    .card-servico h3 {
+        font-size: 1.2rem;
+    }
+
+    .card-servico p {
+        font-size: 0.95rem;
+    }
+
+    /* GALERIA */
+
+    .gallery-img {
+        height: 280px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer h3,
+    .footer h4 {
+        margin-top: 20px;
+    }
+
+    .map-container iframe {
+        height: 220px;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .hero {
+
+        background:
+        linear-gradient(
+            180deg,
+            #282E40 0%,
+            #384059 60%,
+            #4A536D 100%
+        );
+
+    }
+
+}
+@media (max-width: 768px) {
+
+    .card-servico {
+
+        border: 1px solid rgba(217, 142, 115, 0.15);
+
+    }
+
+}
+@media (max-width: 768px) {
+
+    .btn-principal {
+
+        background-color: var(--salmon);
+
+        box-shadow:
+        0 10px 25px rgba(217, 142, 115, 0.25);
+
+    }
+
+}
