@@ -135,8 +135,8 @@ body {
 
     border-radius: 70%;
 
-    top: 0px;
-    right: 500px;
+    top: -200px;
+    right: -200px;
 
     filter: blur(80px);
 
