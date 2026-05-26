@@ -35,8 +35,8 @@ body {
 
 .navbar-custom {
 
-    background-color: rgba(40, 46, 64, 0.95);
-    backdrop-filter: blur(10px);
+    background-color: rgb(40, 46, 64);
+    backdrop-filter: blur(50px);
     padding: 18px 0;
 
 }
@@ -114,7 +114,7 @@ body {
     position: relative;
     background: linear-gradient(
         135deg,
-        var(--navy) 0%,
+        var(--navy) 1%,
         var(--blue-soft) 100%
     );
 
@@ -129,16 +129,16 @@ body {
 
     position: absolute;
     width: 600px;
-    height: 600px;
+    height: 700px;
 
-    background: rgba(217, 142, 115, 0.08);
+    background: rgba(217, 142, 115, 0.196);
 
-    border-radius: 50%;
+    border-radius: 60%;
 
     top: -200px;
     right: -200px;
 
-    filter: blur(40px);
+    filter: blur(80px);
 
 }
 
