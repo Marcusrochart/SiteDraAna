@@ -128,15 +128,15 @@ body {
 .hero-overlay {
 
     position: absolute;
-    width: 600px;
+    width: 700px;
     height: 700px;
 
     background: rgba(217, 142, 115, 0.196);
 
-    border-radius: 60%;
+    border-radius: 70%;
 
-    top: -200px;
-    right: -200px;
+    top: 0px;
+    right: 500px;
 
     filter: blur(80px);
 
