@@ -321,7 +321,7 @@ section {
 .section-tag {
 
     color: var(--salmon);
-    text-transform: uppercase;
+    text-transform:uppercase;
     letter-spacing: 2px;
     font-size: 0.85rem;
     font-weight: 600;
